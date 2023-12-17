@@ -102,7 +102,7 @@ nav a {
 
 .sub {
   font-family: "Montserrat", Times, serif;
-  font-size: 50px;
+  font-size: 40px;
   color: #76587e;
   margin-bottom: 70px;
   line-height: 3rem;
@@ -200,9 +200,9 @@ nav a {
 
 .event-details>div {
   box-shadow: 8px 10px 0px 0px #efb3c7;
-  width: 400px;
-  margin: 10px;
-  padding: 107px 30px;
+  max-width: 400px;
+  margin-bottom: 20px;
+  padding: 30px;
   background-color: #FFF;
 }
 
