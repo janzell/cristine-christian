@@ -190,6 +190,7 @@ nav a {
 
 .event-details {
   margin: auto;
+  max-width: 1000px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -204,6 +205,7 @@ nav a {
   margin-bottom: 20px;
   padding: 30px;
   background-color: #FFF;
+  height: 380px;
 }
 
 .inverse {
