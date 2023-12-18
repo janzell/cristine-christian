@@ -134,7 +134,7 @@ nav a {
   background-color: #fff;
   padding: 20px;
   color: #616060;
-  max-width: 1140px;
+  max-width: 800px;
   margin: auto;
   box-shadow: 0 0 0px 17px #0000001a;
 }
@@ -201,11 +201,10 @@ nav a {
 
 .event-details>div {
   box-shadow: 8px 10px 0px 0px #efb3c7;
-  max-width: 400px;
+  max-width: 900px;
   margin-bottom: 20px;
   padding: 30px;
   background-color: #FFF;
-  height: 380px;
 }
 
 .inverse {
@@ -234,7 +233,11 @@ nav a {
   max-width: 760px;
   margin: auto;
 }
-
+.inspo .col {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .note {
   background: #fff;
   padding: 40px;
@@ -243,6 +246,7 @@ nav a {
 }
 
 .satisfy {
+  line-height: 40px;
   font-family: "Satisfy", "Montserrat", sans-serif;
   color: #76587e;
 }
@@ -325,20 +329,8 @@ footer p {
   margin-right: 10px;
 }
 
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 50%;
-    max-width: 47%;
-  }
-
-  .inspo img {
-    max-width: 47%;
-  }
-
-  .column img {
-    filter: grayscale(0%);
-  }
-
+.inspo img {
+  max-width: 50%;
 }
 
 @media screen and (max-width: 800px) {
@@ -347,6 +339,24 @@ footer p {
     max-width: 47%;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .inspo img {
+    max-width: 100%;
+  }
+
+  .column img {
+    filter: grayscale(0%);
+  }
+
+}
+
+
 
 @media (max-width: 820px) {
   .brush {
@@ -363,7 +373,7 @@ footer p {
   }
 
   .countdown .box {
-    width: 151px;
+    width: 147px;
     height: 73px;
     font-size: 69px;
   }
