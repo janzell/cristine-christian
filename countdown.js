@@ -15,6 +15,12 @@ const x = setInterval(function () {
 
   if (difference < 0) {
     clearInterval(x);
+
+    dayEl.innerText = 0;
+    hoursEl.innerText = 0;
+    minutesEl.innerText = 0;
+    secondsEl.innerText = 0;
+    
     return;
   }
 
