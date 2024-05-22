@@ -1,4 +1,4 @@
-const end = new Date("Jan 06, 2024 00:00:00").getTime();
+const end = new Date("July 27, 2024 00:00:00").getTime();
 const dayEl = document.getElementById("days");
 const hoursEl = document.getElementById("hours");
 const minutesEl = document.getElementById("minutes");
@@ -20,7 +20,7 @@ const x = setInterval(function () {
     hoursEl.innerText = 0;
     minutesEl.innerText = 0;
     secondsEl.innerText = 0;
-    
+
     return;
   }
 
