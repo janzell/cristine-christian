@@ -4,14 +4,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Wedding - Chistine & Christian</title>
+  <title>Wedding - Cristine & Christian</title>
   <meta property="og:image" content="images/travel/12.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital,wght@0,100;0,300;0,500;1,100&family=Satisfy&display=swap"
-    rel="stylesheet" />
+    href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Great+Vibes&family=Sacramento&display=swap"
+    rel="stylesheet">
   <link href="styles.css" rel="stylesheet" />
+  <link href="modal.css" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
 </head>
 
@@ -36,7 +37,7 @@
     </div>
 
     <div id="save-the-date" class="card">
-      <img class="divider" src="images/divider2.svg" alt="" />
+      <span class="fa-solid fa-bell icons"></span>
       <div class="title">WEDDING DAY</div>
       <div class="sub">We Are Getting Married</div>
       <p class="desc">
@@ -66,19 +67,18 @@
 
 
     <div id="event" class="card inverse">
-      <img class="divider" src="images/divider-white.svg" alt="" />
+      <span class="fa-solid fa-calendar icons inverse"></span>
       <div class="title">PLANNING</div>
       <div class="sub">When & Where</div>
       <div class="event-details">
 
-     <div>
-          <h1 class="satisfy">The Ceremony</h1>
-          <p class="mb-2"><span class="fa-solid fa-calendar-days icons"></span>3pm</p>
-          <p><strong>ADDRESS</strong></p>
+        <div>
+          <h1 class="satisfy">Ceremony</h1>
+          <p class="mb-2"><span class="fa-solid fa-calendar-days icons"></span>July 27, 2024 | 3pm</p>
           <p>
             <span class="fa-solid fa-map icons"></span>Transfiguration of Christ Parish Church<br />
           </p>
-            Manuel L. Quezon Ext, Nayong Silangan, Antipolo, 1870 Rizal
+          Manuel L. Quezon Ext, Nayong Silangan, Antipolo, 1870 Rizal
           <p>
             <a target="_blank"
               href="https://www.google.com/maps/place/Transfiguration+of+Christ+Parish+Church+-+San+Roque,+Antipolo+City,+Rizal+(Diocese+of+Antipolo)/@14.5636285,121.1804032,17z/data=!3m1!4b1!4m6!3m5!1s0x3397c0b9c5cadb3f:0x55deeaf5184b2631!8m2!3d14.5636285!4d121.1829781!16s%2Fg%2F1v26jn8y?entry=ttu">View
@@ -86,9 +86,9 @@
           </p>
         </div>
         <div>
-          <h1 class="satisfy">The Reception</h1>
-          <p class="mb-2"><span class="fa-solid fa-calendar-days icons"></span>5:30pm</p>
-          <p><strong>ADDRESS</strong></p>
+          <h1 class="satisfy">Reception</h1>
+          <p class="mb-2"><span class="fa-solid fa-calendar-days icons"></span>July 27, 2024 | 5:30pm</p>
+
           <p>
             <span class="fa-solid fa-map icons"></span>The Garden Hives Events Place Antipolo<br />
           </p>
@@ -104,9 +104,9 @@
     </div>
 
     <div id="dresscode" class="card">
-      <img class="divider" src="images/divider2.svg" alt="" />
+      <span class="fa-solid fa-person-dress icons"></span>
       <div class="title">DRESS CODE</div>
-      <div class="sub">For Principal Sponsors</div>
+      <div class="sub">Sponsors and Guests</div>
 
       <p style="margin-bottom: 40px">
         Get ready to turn heads! We're going for semi-formal elegance—can't wait to admire your chic selections!
@@ -115,28 +115,37 @@
         <strong>Sponsors</strong>: Gentlemen in Barong and Pants, ladies in Beige Gown
       </p>
       <p>
-        <strong>Guests</strong>: Gentlemen in Suits, Long Sleeves and Slacks. Ladies in long formal dress or any formal attire
+        <strong>Guests</strong>: Gentlemen in Suits, Long Sleeves and Slacks. Ladies in long formal dress or any formal
+        attire
         alternative
       </p>
 
       <p class="pallete-2" style="margin-top: 40px;">
-        <strong>Color Palette</strong>
-      <p>We kindly request our guests to wear these colors on our special day.</p>
+        <strong class="sub">Color Palette</strong>
+      <p>In the spirit of our celebration, we kindly invite our guests to adorn themselves in these colors for our
+        special day</p>
       </p>
       <div class="palette">
-        <div style="background-color: #76587e">#76587e</div>
-        <div style="background-color: #99717b">#99717b</div>
-        <div style="background-color: #bf94b6">#bf94b6</div>
+        <div style="background-color: #b1b0b5">Lavender Gray</div>
+        <div style="background-color: #7389a7">Dusty Blue</div>
+        <div style="background-color: #949494">Midnight Grey</div>
+        <div style="background-color: #cebfaf">Beige Grey</div>
       </div>
-
 
       <div class="inspo" style="margin-top: 40px;">
         <p class="pallete-2">
-          <strong>Inspo</strong>
+          <strong class="sub">Inspo</strong>
         </p>
+        <p>Explore our Inspo section for a treasure trove of wedding ideas, trends, and inspiration to help craft your
+          dream celebration</p>
         <div class="row">
           <div class="col">
-            
+            <img loading="lazy" src="images/inspo/m1.png">
+            <img loading="lazy" src="images/inspo/w1.png">
+            <img loading="lazy" src="images/inspo/m2.png">
+            <img loading="lazy" src="images/inspo/w2.png">
+            <img loading="lazy" src="images/inspo/m3.png">
+            <img loading="lazy" src="images/inspo/w3.png">
           </div>
         </div>
       </div>
@@ -145,7 +154,7 @@
 
     <div id="registry" class="card inverse">
       <div class="gift">
-        <img class="divider" src="images/divider-white.svg" alt="" />
+        <span class="fa-solid fa-gift icons inverse"></span>
         <div class="title">Registry</div>
         <p class="sub">Gifts & Contributions</p>
         <div>
@@ -166,51 +175,60 @@
         </div>
       </div>
     </div>
-
-
     <div id="gallery" class="card">
       <div class="pictures">
-        <img class="divider" src="images/divider2.svg" alt="" />
+        <span class="fa-solid fa-camera icons"></span>
         <div class="title">PICTURES</div>
-        <p class="sub">Some snaps </p>
+        <p class="sub">Relive cherished moments with some of our snapshots</p>
+        <p>Click on the images to view them in full size</p>
         <div class="row">
           <div class="column">
-            <img loading="lazy" src="images/travel/1.jpg">
-            <img loading="lazy" src="images/travel/2.jpg">
-            <img loading="lazy" src="images/travel/6.jpg">
+            <img class="gallery-image" loading="lazy" src="images/travel/1.jpg">
+            <img class="gallery-image" loading="lazy" src="images/travel/2.jpg">
+            <img class="gallery-image" loading="lazy" src="images/travel/6.jpg">
           </div>
           <div class="column">
-            <img loading="lazy" src="images/travel/20.jpg">
-            <img loading="lazy" src="images/travel/9.jpg">
-            <img loading="lazy" src="images/travel/10.jpg">
+            <img class="gallery-image" loading="lazy" src="images/travel/20.jpg">
+            <img class="gallery-image" loading="lazy" src="images/travel/9.jpg">
+            <img class="gallery-image" loading="lazy" src="images/travel/10.jpg">
           </div>
         </div>
       </div>
     </div>
 
-    <div id="gallery" class="card">
+    <div id="gallery" class="card inverse" style="background-color: #3086ff;">
       <div class="pictures">
-        <img class="divider" src="images/divider2.svg" alt="" />
-        <div class="title">SNAP & SHARE</div>
-        <p class="sub">Help us capture our precious moments using our hashtag </p>
-        <a href="https://www.instagram.com/explore/tags/CHRISTIANFoundHisEverlasTINgLove/?hl=en">#CHRISTIANFoundHisEverlasTINgLove</a>
-        <a href="https://www.instagram.com/explore/tags/CRISTINEfoundherDesTIANy/?hl=en">#CRISTINEfoundherDesTIANy</a>
+        <span class="fa-solid fa-share-square icons inverse"></span>
+        <div class="title">SOCIAL</div>
+        <p class="sub">Snap and Share</p>
+        <p>Help us capture our precious moments using our hashtag </p>
+        <a class="inverse"
+          href="https://www.instagram.com/explore/tags/CHRISTIANFoundHisEverlasTINgLove/?hl=en">#CHRISTIANFoundHisEverlasTINgLove</a>
+        <a class="inverse"
+          href="https://www.instagram.com/explore/tags/CRISTINEfoundherDesTIANy/?hl=en">#CRISTINEfoundherDesTIANy</a>
       </div>
     </div>
-
-
-    
-
     <div id="rsvp" class="card" style="padding-bottom: 0;">
       <img class="divider" src="images/divider2.svg" alt="" />
       <div class="title">YOU'RE INVITED</div>
       <div class="sub">We Can't Wait to See You</div>
       <p>Please let us know if you’ll be able to make it</p>
-      <iframe src="https://docs.google.com/forms/d/16CyAnYqBrXcZtKWjzaVkioIC4wjnEX5qjgz6VbWK7EU/viewform?embedded=true"
-        width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLScwk1Jnc8U2hncLRDqw_Nv5HzwumbVcuzHIPma3e5wM7L3hqw/viewform?embedded=true"
+        width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
     </div>
   </div>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+
+  <script src="modal.js"></script>
+  <script src="countdown.js"></script>
 </body>
 
-<script src="countdown.js"></script>
 </html>

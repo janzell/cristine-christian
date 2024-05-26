@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: "Crimson Text", Arial, Helvetica, sans-serif;
   font-weight: 300;
   color: #616060;
   background-color: #bf94b6;
@@ -36,7 +36,12 @@ p {
 }
 
 a {
-  color: #76587e;
+  color: #3086ff;
+}
+
+a.inverse {
+  color: #fff;
+  background:none;
 }
 
 .nav {
@@ -50,11 +55,11 @@ nav a {
   text-decoration: none;
   padding: 50px 20px;
   color: #FFF;
+  text-transform: uppercase;
 }
 
 .header-bg {
   background-image: url(images/travel/12.jpg), linear-gradient(0deg, rgb(255 254 251) 0%, rgb(79 77 77) 50%, rgb(98 133 161) 100%);
-  /* background-image: url(images/travel/12.jpg), linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgb(99 99 99) 50%, rgb(77, 59, 44) 100%); */
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-position: center 70%;
@@ -77,14 +82,13 @@ nav a {
 .hero .inner {
   display: flex;
   flex-direction: column;
-  padding: 0 44px;
   color: #fff;
 }
 
 .hero .desc {
   color: #FFF;
-  background: #6d85ab;
-  padding: 20px;
+  background: #949494;
+  padding: 35px;
 }
 
 .hero span {
@@ -101,9 +105,9 @@ nav a {
 }
 
 .sub {
-  font-family: "Montserrat", Times, serif;
+  font-family: "Sacramento", Times, serif;
   font-size: 45px;
-  color: #000000;
+  color: #6d85ab;
   margin-bottom: 70px;
   line-height: 3rem;
   font-weight: bold;
@@ -133,10 +137,11 @@ nav a {
 }
 
 .brush {
-  font-family: "Dancing Script", cursive;
+  font-family: "Sacramento", cursive;
   font-size: 110px;
   margin: 10px;
   color: #fff;
+  font-weight: 600;
 }
 
 
@@ -159,11 +164,11 @@ nav a {
   font-size: 99px;
   color: #fff;
   margin-bottom: 20px;
-  background: #6d85ab;
+  background: #cebfaf;
   font-weight: bold;
   transition: margin 0.3s ease-in-out;
   cursor: pointer;
-  box-shadow: 0px 15px 12px 0px #58524852;
+  box-shadow: 0px 20px 19px 0px #58524852;
 }
 
 .countdown .box:hover {
@@ -192,17 +197,19 @@ nav a {
 }
 
 .event-details>div {
-  color: #000;;
-  box-shadow: 16px 17px 0px 0px #5d7497;
-  max-width: 420px;
+  color: #616060;
+  box-shadow: 0px 19px 19px 7px #4960837a;
+  max-width: 400px;
   margin-bottom: 20px;
   padding: 30px;
-  min-height: 400px;;
+  min-height: 400px;
   background-color: #FFF;
+  border: 7px solid #495c79;
+  width: 100%;
 }
 
 .inverse {
-  background: #76587e;
+  background: #cebfaf;
   color: #FFF;
 }
 
@@ -243,8 +250,8 @@ nav a {
 
 .satisfy {
   line-height: 40px;
-  font-family: "Satisfy", "Montserrat", sans-serif;
-  color: #000;
+  font-family: "Great Vibes", "Crimson Text", sans-serif;
+  color: #616060;
 }
 
 .mb-2 {
@@ -256,7 +263,7 @@ nav a {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  max-width: 1060px;
+  max-width: 800px;
   margin: auto;
   flex-wrap: wrap;
 }
@@ -266,7 +273,6 @@ nav a {
   margin-bottom: 10px;
   height: 170px;
   display: block;
-  border-radius: 50%;
   font-size: 16px;
   align-items: center;
   display: flex;
@@ -298,7 +304,6 @@ nav a {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-  filter: grayscale(100%);
   cursor: pointer;
 }
 
@@ -307,8 +312,14 @@ nav a {
 }
 
 .icons {
-  color: #76587e;
   margin-right: 10px;
+  color:#6d85ab;
+  font-size: 35px;
+}
+
+.icons.inverse {
+  color:#fff;
+  background: none;
 }
 
 .inspo img {
@@ -348,18 +359,17 @@ nav a {
 
 @media screen and (max-width: 600px) {
   .column {
-    flex: 100%;
+    flex: 47%;
     max-width: 100%;
   }
 
   .inspo img {
-    max-width: 100%;
+    max-width: 50%;
   }
 
-  .column img {
-    filter: grayscale(0%);
+  .event-details>div {
+   width: auto;; 
   }
-
 }
 
 @media (max-width: 820px) {
